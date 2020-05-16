@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": false,
   "dependencies": {
+    "@material-ui/core": "^4.9.14",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.53",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
@@ -10,11 +13,13 @@
     "@types/node": "^12.12.39",
     "@types/react": "^16.9.35",
     "@types/react-dom": "^16.9.8",
+    "enzyme": "^3.11.0",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.2",
     "prettier": "^2.0.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-jss": "^8.0.0",
     "react-router": "^5.2.0",
     "react-scripts": "3.4.1",
     "typescript": "^3.9.2"
@@ -61,8 +66,10 @@
   "devDependencies": {
     "@storybook/addon-actions": "^5.3.18",
     "@storybook/addon-links": "^5.3.18",
+    "@storybook/addon-storyshots": "^5.3.18",
     "@storybook/addons": "^5.3.18",
     "@storybook/preset-create-react-app": "^2.1.2",
-    "@storybook/react": "^5.3.18"
+    "@storybook/react": "^5.3.18",
+    "react-test-renderer": "^16.13.1"
   }
 }

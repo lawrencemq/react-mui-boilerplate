@@ -1,26 +1,27 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import { makeStyles, Typography, Container, Paper } from '@material-ui/core';
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    padding: theme.spacing(3),
+  },
+}));
+
+const App = () => {
+  const classes = useStyles();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+    <Container>
+      <Paper className={classes.root}>
+        <img src={logo} alt="logo" />
+        <Typography variant="body1" align="center">
           Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        </Typography>
+      </Paper>
+    </Container>
   );
-}
+};
 
 export default App;

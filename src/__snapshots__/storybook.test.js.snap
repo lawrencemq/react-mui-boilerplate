@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots App Test 1`] = `
+<div
+  className="MuiContainer-root MuiContainer-maxWidthLg"
+>
+  <div
+    className="MuiPaper-root makeStyles-root-1 MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <img
+      alt="logo"
+      src="logo.svg"
+    />
+    <p
+      className="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter"
+    >
+      Edit 
+      <code>
+        src/App.tsx
+      </code>
+       and save to reload.
+    </p>
+  </div>
+</div>
+`;
